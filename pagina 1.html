@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   
+    <title>Página 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        .menu {
+            background-color: #5348b6;
+            padding: 15px;
+            color: white;
+            margin-bottom: 20px;
+        }
+        .menu-desplegable {
+            margin: 0 auto;
+            text-align: center;
+            background-color: #5348b6;
+        }
+
+        .menu-desplegable ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: inline-block; /* Para centrar el menú */
+            background-color: #5348b6;
+        }
+
+        .menu-desplegable ul li {
+            float: left;
+            position: relative;
+        }
+
+        .menu-desplegable ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .menu-desplegable ul li a:hover {
+            background-color: #111;
+        }
+
+        .menu-desplegable ul li ul {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        .menu-desplegable ul li:hover ul {
+            display: block;
+        }
+
+        .menu-desplegable ul li ul li {
+            float: none;
+        }
+
+        .menu-desplegable ul li ul li a {
+            padding: 12px 16px;
+        }
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            justify-items: center;
+            align-items: start;
+            margin: 0 auto;
+            width: 80%;
+        }
+        .image-box {
+            background-color: #99CC66;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer {
+            background-color: #5348b6;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .resumen {
+            text-align: left;
+            font-size: 14px;
+            padding: 10px;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .image-text-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="container">
+        <h1>PÁGINA 1</h1>
+    </header>
+
+    <div class="menu-desplegable">
+        <ul>
+            <li><a href="file:///C:/Users/Luis%20Felipe/Desktop/PAGINA%20LUIS/MENU%20PRINCIPAL.html">MENU PRINCIPAL</a></li>
+            <li><a href="file:///C:/Users/Luis%20Felipe/Desktop/PAGINA%20LUIS/pagina%201.html">PAGINA 1</a>
+            </li>
+            <li><a href="file:///C:/Users/Luis%20Felipe/Desktop/PAGINA%20LUIS/pagina%202.html">PAGINA 2</a></li>
+            <li><a href="file:///C:/Users/Luis%20Felipe/Desktop/PAGINA%20LUIS/pagina%203.html">PAGINA 3</a></li>
+            <li><a href="file:///C:/Users/Luis%20Felipe/Desktop/PAGINA%20LUIS/pagina%204.html">PAGINA 4</a></li>
+        </ul>
+    </div>
+
+    <section class="content">
+        <div class="image-text-container">
+            <!-- Imagen 1 -->
+            <div class="image-box">
+                <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res40/182000/182207.jpg" alt="Imagen 1">
+            </div>
+            <p class="resumen">RESUMEN DE LA IMAGEN: Lo que este maravilloso lienzo representa no es una historia, como en las demás pinturas que hemos visto hasta ahora, sino un estado emocional, el concepto de infinito, el vagabundeo y las imperfecciones del alma y de los sentimientos. El caminante sobre el mar de nubes es el paradigma del Romanticismo alemán, muy diferente del francés y del italiano. Sin embargo, todas las vertientes de este movimiento supieron transmitir fielmente los diferentes estados de ánimo.</p>
+        </div>
+        <div class="image-text-container">
+            <!-- Imagen 2 -->
+            <p class="resumen">RESUMEN DE LA IMAGEN: Camille Corot, ante todo paisajista, forma parte del Romanticismo por la atención que presta a la naturaleza y a la relación entre esta y el ser humano, como se percibe en esta bonita pintura. La obra representa al ser humano en un contexto natural formado por árboles, nubes y prados. La presencia humana se advierte en las figuras en primer plano, en una composición pictórica que pretende otorgar la misma importancia a todos los elementos del conjunto.</p>
+            <div class="image-box">
+                <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res40/182000/182214.jpg" alt="Imagen 2">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        DISEÑADO POR: IWC LFML SCC AGG
+    </footer>
+
+</body>
+</html>
+
+

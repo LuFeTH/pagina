@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    
+    <title>Integrantes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .titulo {
+            background-color: #5348b6;
+            color: white;
+            padding: 20px;
+            font-size: 2em;
+        }
+
+        .menu-desplegable {
+            background-color: #5348b6;
+            color: white;
+            padding: 10px;
+            margin: 20px 0;
+        }
+
+        /* Menu Principal */
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #5348b6;
+            display: flex;
+            justify-content: center;
+        }
+
+        ul li {
+            float: left;
+            position: relative;
+        }
+
+        ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            background-color: #111;
+        }
+
+        ul li ul {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        ul li:hover ul {
+            display: block;
+        }
+
+        ul li ul li {
+            float: none;
+        }
+
+        ul li ul li a {
+            padding: 12px 16px;
+        }
+
+        /* Estilo para las tarjetas */
+        .tarjetas {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+            justify-items: center;
+        }
+
+        .tarjeta {
+            background-color: #7700ff;
+            padding: 20px;
+            width: 200px;
+            height: auto;
+            color: white;
+            font-size: 1.2em;
+            text-align: center;
+        }
+
+        .tarjeta img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+
+        .footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #5348b6;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="titulo">
+        Integrantes
+    </div>
+
+    <ul>
+        <li><a href="file:///C:/Users/Luis%20Felipe/Desktop/PAGINA%20LUIS/MENU%20PRINCIPAL.html">MENU PRINCIPAL</a></li>
+        <li><a href="file:///C:/Users/Luis%20Felipe/Desktop/PAGINA%20LUIS/pagina%201.html">PAGINA 1</a>
+        </li>
+        <li><a href="file:///C:/Users/Luis%20Felipe/Desktop/PAGINA%20LUIS/pagina%202.html">PAGINA 2</a></li>
+        <li><a href="file:///C:/Users/Luis%20Felipe/Desktop/PAGINA%20LUIS/pagina%203.html">PAGINA 3</a></li>
+        <li><a href="file:///C:/Users/Luis%20Felipe/Desktop/PAGINA%20LUIS/pagina%204.html">PAGINA 4</a></li>
+    </ul>
+
+    <div class="tarjetas">
+        <div class="tarjeta">
+            <img src="ISABELLA  W.jpg" alt="Foto Estudiante 1">
+            <p>ISABELLA WILCHES CARDENAS<br>11-4<br>POP EN INGLES<br><b>REPOSTERIA Y VIDEOJUEGOS</b><br>TENIS O NATACION</p>
+        </div>
+        <div class="tarjeta">
+            <img src="MARIN.jpg" alt="Foto Estudiante 2">
+            <p>LUIS FELIPE MARIN LINARES<br>11-4<br>POP Y ROCK<br><b>ESCUCHA MUSICA, REPOSTERIA, VIDEOJUEGOS Y PROGRAMAR</b><br>POWERLIFTING O CICLISMO</p>
+        </div>
+        <div class="tarjeta">
+            <img src="CANDAMILK.jpg" alt="Foto Estudiante 3">
+            <p>SARA CANDAMIL CORREA<br>11-4<br>POP<br><b>ESCUCHAR MUSICA Y HACER EJERCICIO</b><br>CROSSFIT Y KARATE</p>
+        </div>
+        <div class="tarjeta">
+            <img src="ANEGONZA.jpg" alt="Foto Estudiante 1">
+            <p>ANA GUISSEL GONZALES<br>11-4<br>POP EN ESPAÑOL O BALADAS<br><b>MAQUILLAJE O MANUALIDADES</b><br>CHOY LEE FUT</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        DISEÑADO POR: IWC LFML SCC AGG
+    </div>
+
+</body>
+
+</html>

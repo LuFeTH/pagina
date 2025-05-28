@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <title>Página 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        .menu {
+            background-color: #5348b6;
+            padding: 15px;
+            color: white;
+            margin-bottom: 20px;
+        }
+        .menu-desplegable {
+            margin: 0 auto;
+            text-align: center;
+            background-color: #5348b6;
+        }
+
+        .menu-desplegable ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: inline-block; /* Para centrar el menú */
+            background-color: #5348b6;
+        }
+
+        .menu-desplegable ul li {
+            float: left;
+            position: relative;
+        }
+
+        .menu-desplegable ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .menu-desplegable ul li a:hover {
+            background-color: #111;
+        }
+
+        .menu-desplegable ul li ul {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        .menu-desplegable ul li:hover ul {
+            display: block;
+        }
+
+        .menu-desplegable ul li ul li {
+            float: none;
+        }
+
+        .menu-desplegable ul li ul li a {
+            padding: 12px 16px;
+        }
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            justify-items: center;
+            align-items: start;
+            margin: 0 auto;
+            width: 80%;
+        }
+        .video-box {
+            background-color: #99CC66;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer {
+            background-color: #5348b6;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .resumen {
+            text-align: left;
+            font-size: 14px;
+            padding: 10px;
+        }
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .video-text-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="container">
+        <h1>PÁGINA 2</h1>
+    </header>
+
+    <div class="menu-desplegable">
+        <ul>
+            <li><a href="file:///C:/Users/Luis%20Felipe/Desktop/PAGINA%20LUIS/MENU%20PRINCIPAL.html">MENU PRINCIPAL</a></li>
+            <li><a href="file:///C:/Users/Luis%20Felipe/Desktop/PAGINA%20LUIS/pagina%201.html">PAGINA 1</a>
+            </li>
+            <li><a href="file:///C:/Users/Luis%20Felipe/Desktop/PAGINA%20LUIS/pagina%202.html">PAGINA 2</a></li>
+            <li><a href="file:///C:/Users/Luis%20Felipe/Desktop/PAGINA%20LUIS/pagina%203.html">PAGINA 3</a></li>
+            <li><a href="file:///C:/Users/Luis%20Felipe/Desktop/PAGINA%20LUIS/pagina%204.html">PAGINA 4</a></li>
+        </ul>
+    </div>
+
+    <section class="content">
+        <div class="video-text-container">
+            <!-- Video 1 -->
+            <div class="video-box">
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/dnB0prXKbJI" title="¿QUE ES THE BLOOP? El Gran Misterio del Océano || DarkSite" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <p class="resumen">RESUMEN DEL VIDEO: En este video nos muestran The Bloop: Un misterioso sonido submarino detectado en 1997
+
+                En julio de 1997, la Administración Nacional Oceánica y Atmosférica (NOAA) detectó un sonido submarino de gran potencia y baja frecuencia, conocido como “The Bloop”, en el Océano Pacífico Sur. El sonido fue captado por hidrófonos distribuidos a más de 5.000 km de distancia, lo que lo hace uno de los sonidos más lejanos jamás registrados.</p>
+        </div>
+        <div class="video-text-container">
+            <!-- Video 2 -->
+            <p class="resumen">RESUMEN DEL VIDEO: La Voyager 1 es una sonda espacial robótica lanzada por la NASA en 1977, con el objetivo de estudiar los planetas gigantes Júpiter y Saturno, y explorar el espacio interestelar más allá del sistema solar. Es la nave espacial más lejana construida por el ser humano, con una distancia actual de 23.300 millones de kilómetros de la Tierra.</p>
+            <div class="video-box">
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/e23SdoL9Fg4" title="El mensaje de las Voyager - LOS EXPEDIENTES SECRETOS CON JAIME MAUSSAN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        DISEÑADO POR: IWC LFML SCC AGG
+    </footer>
+
+</body>
+</html>

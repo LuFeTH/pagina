@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <title>Página 3</title>
+    <style>
+        .container {
+            text-align: center;
+        }
+        .menu {
+            background-color: #5348b6;
+            padding: 15px;
+            color: white;
+            margin-bottom: 20px;
+        }
+        .menu-desplegable {
+            margin: 0 auto;
+            text-align: center;
+            background-color: #5348b6;
+        }
+
+        .menu-desplegable ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: inline-block; /* Para centrar el menú */
+            background-color: #5348b6;
+        }
+
+        .menu-desplegable ul li {
+            float: left;
+            position: relative;
+        }
+
+        .menu-desplegable ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .menu-desplegable ul li a:hover {
+            background-color: #111;
+        }
+
+        .menu-desplegable ul li ul {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        .menu-desplegable ul li:hover ul {
+            display: block;
+        }
+
+        .menu-desplegable ul li ul li {
+            float: none;
+        }
+
+        .menu-desplegable ul li ul li a {
+            padding: 12px 16px;
+        }
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            justify-items: center;
+            align-items: start;
+            margin: 0 auto;
+            width: 80%;
+        }
+        .image-box {
+            background-color: #99CC66;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer {
+            background-color: #5348b6;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .resumen {
+            text-align: left;
+            font-size: 14px;
+            padding: 10px;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .image-text-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="container">
+        <h1>PÁGINA 3</h1>
+    </header>
+
+    <div class="menu-desplegable">
+        <ul>
+            <li><a href="file:///C:/Users/Luis%20Felipe/Desktop/PAGINA%20LUIS/MENU%20PRINCIPAL.html">MENU PRINCIPAL</a></li>
+            <li><a href="file:///C:/Users/Luis%20Felipe/Desktop/PAGINA%20LUIS/pagina%201.html">PAGINA 1</a>
+            </li>
+            <li><a href="file:///C:/Users/Luis%20Felipe/Desktop/PAGINA%20LUIS/pagina%202.html">PAGINA 2</a></li>
+            <li><a href="file:///C:/Users/Luis%20Felipe/Desktop/PAGINA%20LUIS/pagina%203.html">PAGINA 3</a></li>
+            <li><a href="file:///C:/Users/Luis%20Felipe/Desktop/PAGINA%20LUIS/pagina%204.html">PAGINA 4</a></li>
+        </ul>
+    </div>
+
+    <section class="content">
+        <!-- Texto a la izquierda -->
+        <p class="resumen"> La figura definitoria del impresionismo, Monet, virtualmente le dio su nombre al movimiento con su pintura del amanecer sobre el puerto de Le Havre, la ciudad natal del artista. Monet era conocido por sus estudios sobre la luz y el color, y este lienzo ofrece un espléndido ejemplo con una ráfaga de pinceladas que representan el sol como una esfera naranja que se abre paso entre una nebulosa fusión de agua y cielo. </p>
+        
+        <!-- Imagen a la derecha -->
+        <div class="image-box">
+            <img src="https://media.timeout.com/images/105739425/1024/576/image.webp" alt="Imagen 1">
+        </div>
+    </section>
+
+    <footer class="footer">
+        DISEÑADO POR: IWC LFML SCC AGG
+    </footer>
+
+</body>
+</html>
+

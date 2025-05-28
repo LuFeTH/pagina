@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <title>Menú Principal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .titulo {
+            background-color: #5348b6;
+            color: white;
+            padding: 20px;
+            font-size: 2em;
+        }
+
+        /* Estilos del menú desplegable */
+        .menu-desplegable {
+            margin: 0 auto;
+            text-align: center;
+            background-color: #5348b6;
+        }
+
+        .menu-desplegable ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: inline-block; /* Para centrar el menú */
+            background-color: #5348b6;
+        }
+
+        .menu-desplegable ul li {
+            float: left;
+            position: relative;
+        }
+
+        .menu-desplegable ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .menu-desplegable ul li a:hover {
+            background-color: #111;
+        }
+
+        .menu-desplegable ul li ul {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        .menu-desplegable ul li:hover ul {
+            display: block;
+        }
+
+        .menu-desplegable ul li ul li {
+            float: none;
+        }
+
+        .menu-desplegable ul li ul li a {
+            padding: 12px 16px;
+        }
+
+        /* Estilos de la sección de noticias */
+        .noticias {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            justify-items: center;
+            padding: 20px;
+        }
+
+        .noticia {
+            background-color: #7700ff;
+            padding: 20px;
+            width: 200px;
+            height: auto;
+            color: white;
+            font-size: 1.2em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .noticia img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+
+        .footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #5348b6;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="titulo">
+        MENU PRINCIPAL(ACONTECIMIENTOS HISTORICOS)
+    </div>
+
+    <!-- Menú desplegable centrado justo debajo del título -->
+    <div class="menu-desplegable">
+        <ul>
+            <li><a href="file:///C:/Users/Luis%20Felipe/Desktop/PAGINA%20LUIS/MENU%20PRINCIPAL.html">MENU PRINCIPAL</a></li>
+            <li><a href="file:///C:/Users/Luis%20Felipe/Desktop/PAGINA%20LUIS/pagina%201.html">PAGINA 1</a>
+            </li>
+            <li><a href="file:///C:/Users/Luis%20Felipe/Desktop/PAGINA%20LUIS/pagina%202.html">PAGINA 2</a></li>
+            <li><a href="file:///C:/Users/Luis%20Felipe/Desktop/PAGINA%20LUIS/pagina%203.html">PAGINA 3</a></li>
+            <li><a href="file:///C:/Users/Luis%20Felipe/Desktop/PAGINA%20LUIS/pagina%204.html">PAGINA 4</a></li>
+        </ul>
+    </div>
+
+    <div class="noticias">
+        <div class="noticia">
+            <h3><a href="https://es.wikipedia.org/wiki/Ca%C3%ADda_del_Muro_de_Berl%C3%ADn" target="_blank" style="color: white; text-decoration: none;">Caída del Muro de Berlín</a></h3>
+            <p>La caída del Muro de Berlín fue un evento histórico que ocurrió la noche del 9 al 10 de noviembre de 1989. El muro, construido en 1961 por la República Democrática Alemana (RDA) para separar Berlín Oriental de Berlín Occidental, fue abolido después de décadas de división.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg/320px-West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg" alt="Caída del Muro de Berlín">
+        </div>
+        <div class="noticia">
+            <h3><a href="https://es.wikipedia.org/wiki/Gran_Muralla_China" target="_blank" style="color: white; text-decoration: none;">Gran Muralla China</a></h3>
+            <p>La Gran Muralla China es una obra de ingeniería militar impresionante que se construyó entre los siglos V a.C. y XVII d.C. en el norte de China, con el propósito de defender las fronteras del Imperio Chino de las invasiones de tribus nómadas provenientes principalmente de Mongolia.</p>
+            <img src="https://imgs.search.brave.com/qLluP6VttPfwMUKODLFTCEVLB8MKds_f1fdSmUhuQYo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi8zLzM4L0dy/ZWF0V2FsbF8yMDA0/X1N1bW1lcl80Lmpw/Zy81MTJweC1HcmVh/dFdhbGxfMjAwNF9T/dW1tZXJfNC5qcGc" alt="Gran Muralla China">
+        </div>
+        <div class="noticia">
+            <h3><a href="https://es.wikipedia.org/wiki/Fosa_de_las_Marianas" target="_blank" style="color: white; text-decoration: none;">Fosa de las Marianas</a></h3>
+            <p>La fosa de las Marianas es una depresión del fondo marino que se encuentra en el océano Pacífico occidental, a unos 200 km al este de las islas Marianas, y es el área más profunda conocida de la Tierra. Tiene forma de media luna y mide unos 2550 km de largo por unos 70 km de ancho. La máxima profundidad de esta fosa oceánica es de 10 994 metros en el extremo sur de un pequeño valle en su fondo, conocido como Abismo de Challenger. Las mediciones llevan su punto más profundo hasta los 11 034 metros.1​ En comparación, si la montaña más alta del planeta, que es el monte Everest con 8 849 metros, reposara sobre este punto, su cima estaría todavía a más de dos mil metros de la superficie.</p>
+            <img src="https://imgs.search.brave.com/IXIsBdVcG3MzATHPiXHKNvJ0SHjos4xajZlQ886TFK4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pY2hl/Zi5iYmNpLmNvLnVr/L2FjZS93cy82NDAv/Y3BzcHJvZHBiLzQ2/QzMvcHJvZHVjdGlv/bi9fMTE4NDUxMTgx/X2Zpc2guanBnLndl/YnA" alt="Fosa de las Marianas">
+        </div>
+        <div class="noticia">
+            <h3><a href="https://es.wikipedia.org/wiki/Islas_Gal%C3%A1pagos" target="_blank" style="color: white; text-decoration: none;">Islas Galápagos</a></h3>
+            <p>Las islas Galápagos1​ (también islas de las Galápagos y oficialmente conocidas como archipiélago de Colón1​ o archipiélago de Galápagos)2​ constituyen un archipiélago del océano Pacífico ubicado a 972 km de la costa de Ecuador.3​ Fueron descubiertas en 1535 por la tripulación del barco del fray Tomás de Berlanga. Está conformado por trece islas grandes con una superficie mayor a 10 km², nueve islas medianas con una superficie de 1 km² a 10 km² y otros 107 islotes de tamaño pequeño, además de promontorios rocosos de pocos metros cuadrados, distribuidos alrededor de la línea ecuatorial, que conjuntamente con el Archipiélago Malayo, son los únicos archipiélagos del planeta que tienen territorio tanto en el hemisferio norte como en el hemisferio sur.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Galapagos-satellite-2002.jpg/320px-Galapagos-satellite-2002.jpg" alt="Islas Galápagos">
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Trabajo presentado a: LUIS FELIPE MARIN LINARES, ANA GUISSEL GONZALES, SARA CANDAMIL CORREA Y ISABELLA WILCHES<br>
+           En la materia de: Tecnología e informática<br>
+           En el grado de 11-4</p>
+        <p>DISEÑADO POR: IWC LFML SCC AGG</p>
+    </div>
+
+</body>
+</html>
